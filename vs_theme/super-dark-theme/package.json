@@ -1,0 +1,40 @@
+{
+  "name": "super-dark-theme",
+  "displayName": "super dark theme",
+  "description": "just black and red theme, made for those who cannot accept the idea of coding in light mode",
+  "version": "0.0.1",
+  "publisher": "hellbill",
+  "icon": "images/logo.jpg",
+  "engines": {
+    "vscode": "^1.79.0"
+  },
+  "author": "hell bill",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/plax98/vstheme.git",
+  },
+  "bugs": {
+    "url": "https://github.com/plax98/vstheme/tree/main",
+    "email": "noemail@gmail.com"
+  },
+  "homepage": "https://github.com/plax98/vstheme/blob/main/README.md",
+  "galleryBanner": {
+    "color": "#101010",
+    "theme":"dark"
+  },
+  "keywords": {
+    "themes", "dark theme", "color-theme", "dark red", "black red theme", "night theme", "psycho theme"
+  }
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "dark theme red",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark theme red-color-theme.json"
+      }
+    ]
+  }
+}
